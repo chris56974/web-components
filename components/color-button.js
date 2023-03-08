@@ -1,3 +1,15 @@
+export const tabGroupColors = {
+  grey: "#dadce0",
+  blue: "#8ab4f8",
+  red: "#f28b82",
+  yellow: "#fdd663",
+  green: "#81c995",
+  pink: "#ff8bcb",
+  purple: "#c58af9",
+  cyan: "#78d9ec",
+  orange: "#fcad70",
+}
+
 export class ColorButton extends HTMLElement {
   /** 
    * This component lets the user select which "tabGroup" color they want (there's only 9 available)
