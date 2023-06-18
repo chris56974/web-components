@@ -12,10 +12,9 @@ export const tabGroupColors = {
 
 export class ColorButton extends HTMLElement {
   /** 
-   * This component lets the user select which "tabGroup" color they want (there's only 9 available)
+   * This component is a button that allows the user to select which color they want from the nine available.
+   * I made this component because chrome tabGroups can only be 9 colors, and I wanted the user to choose their color preference.
    * https://developer.chrome.com/docs/extensions/reference/tabGroups/#type-Color
-   * 
-   * I ended up not using this component, because I thought tabGroups were too distracting 
    */
 
   constructor() {
